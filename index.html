@@ -1,355 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!--
-     - Roxy: Bootstrap template by GettTemplates.com
-     - https://gettemplates.co/roxy
-    -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sunnah Tech Labs</title>
-    <meta name="description" content="Roxy">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/select2/select2.min.css">
-    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Page Title -->
+    <title>Sunnah Tech Lab | Innovation Hub</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+    <!-- Config -->
+    <link type="text/css" rel="stylesheet" href="css/config.css">
+    <!-- Libraries -->
+    <link type="text/css" rel="stylesheet" href="css/libs.css">
+    <!-- Template Styles -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- Responsive -->
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-LR4/ZfnmZxVn5V4UamF2CBzvITnF4UzGCEf+Zb93z+PbM+2lC9LK2CZl+oO2e5Jr" crossorigin="anonymous">
-
-    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body data-spy="scroll" data-target="#navbar" class="static-layout">
-	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center text-white" href="/">
-        <img src="img/331485926_718173943181508_4673779626847757735_n.jpeg" alt="STL logo" class="header-logo">
-    </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-menu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-nav-header">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a id="side-search-open" class="nav-link" href="#">
-                        <span class="lnr lnr-magnifier"></span>
-                    </a>
-                </li>
-                 <li class="nav-item only-desktop">
-                    <a class="nav-link" id="side-nav-open" href="#">
-                        <span class="lnr lnr-menu"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
-	
-	<div class="sidenav-content">
-		<p>
-			Kuncen WB1, Wirobrajan 10010, DIY
-		</p>
-		<p>
-			<span class="fs-16 primary-color">(+68) 120034509</span>
-		</p>
-		<p>info@yourdomain.com</p>
-	</div>
-</div><div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
-	<div class="sidenav-content">
-		<form action="">
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
-			    	<span class="lnr lnr-magnifier"></span>
-			    </button>
-			  </div>
-			</div>
-
-		</form>
-	</div>
-	
-</div>	
-<div class="header-section">
-    <div class="header-content">
-        <div class="header-text">
-            <h1 class="header-title">SUNNAH <br> TECHNOLOGY <br> LAB</h1>
-            <p class="header-subtitle">LEARN. GROW. LEAD</p>
-        </div>
-        <div class="header-image">
-            <img src="img/hero-img-1.webp" alt="Image description">
-        </div>
-    </div>
-    <div class="sponsor-section">
-        <div class="sponsor-logos">
-            <img src="img/Facebook-Logo.jpeg" alt="Sponsor 1 logo">
-            <img src="img/logo_microsoft-1.webp" alt="Sponsor 2 logo">
-            <img src="img/google-1.webp" alt="Sponsor 3 logo">
-            <!-- Add more sponsor logos as needed -->
-        </div>
-    </div>
-</div>
-</div>	<!-- Features Section-->
-<section id="features" class="bg-white">
-    <div class="container">
-        <div class="section-content">
-            <!-- Section Title -->
-            <div class="title-wrap mb-5" data-aos="fade-up">
-                <h2 class="section-title">
-                    Hello World !</a>
-                </h2>
-                <p class="section-sub-title">STL is a Technology Innovation lab where ideas, codes, <br>frameworks, plugins, and passion are mixed to create solutions that solve real-life problems.</p>
-            </div>
-            <!-- End of Section Title -->
-            <div class="row">
-                <!-- Focal Point Holder-->
-                <div class="col-md-10 offset-md-1 focal-point-holder">
-                    <div class="row">
-                        <!-- Focal Point Item -->
-                        <div class="col-md-4 col-sm-12 text-center mt-4">
-                            <div class="create-item custom-card p-4 mb-4">
-                                <div class="my-4">
-                                    <img src="img/responsive.gif" alt="We Create Icon">
-                                </div>
-                                <h4>We Create</h4>
-                                <p>We Create Tech Solutions. We leverage on technology to build global companies that solve problems.</p>
-                            </div>
-                        </div>
-                        <!-- End of Focal Point Item -->
-                        <!-- Focal Point Item -->
-                        <div class="col-md-4 col-sm-12 text-center mt-4">
-                            <div class="sell-item custom-card p-4 mb-4">
-                                <div class="my-4">
-                                    <img src="img/teach.gif" alt="We Sell Icon">
-                                </div>
-                                <h4>We Teach</h4>
-                                <p>We Teach Take tech courses. Making them available to those who need them globally - paid or free.</p>
-                            </div>
-                        </div>
-                        <!-- End of Focal Point Item -->
-                        <!-- Focal Point Item -->
-                        <div class="col-md-4 col-sm-12 text-center mt-4">
-                            <div class="support-item custom-card p-4 mb-4">
-                                <div class="my-4">
-                                    <img src="img/handshake.gif" alt="We Support Icon">
-                                </div>
-                                <h4>We Support</h4>
-                                <p>We Support The Ecosystem. Through our hub, training, internship, events, and open source contributions.</p>
-                            </div>
-                        </div>
-                        <!-- End of Focal Point Item -->
-                    </div>
-                </div>
-                        <!-- End of Focal Point Item -->
-                    </div>
-                </div>
-            </div>
-                        <!-- End of Feature Item -->
-                    </div>
-                </div>
-                <!-- End of Features Holder-->
-            </div>
-        </div>
-    </div>
-</section>
-<!--section id="video-section">
-    <video autoplay muted loop playsinline id="background-video">
-        <source src="img/322540669_1367781557387545_8804276737810760161_n.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</section-->
-<section id="stl-fun-facts" class="stl-section-content">
-    <div class="stl-container">
-        <div class="stl-heading-section text-center">
-            <h2>Fun facts from STL</h2>
-            <p>At Colab you can Work. Play, Collaborate and Change the world.</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="stl-counter">
-                    <i class="fas fa-users"></i>
-                    <h3 class="stl-timer stl-count-title stl-count-number" data-to="3000" data-speed="1500">0</h3>
-                    <p class="stl-count-text ">Entrepreneurs Supported</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="stl-counter">
-                    <i class="fas fa-store"></i>
-                    <h3 class="stl-timer stl-count-title stl-count-number" data-to="100" data-speed="1500">0</h3>
-                    <p class="stl-count-text ">Startups Supported</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="stl-counter">
-                    <i class="fas fa-timer"></i>
-                    <h3 class="stl-timer stl-count-title stl-count-number" data-to="72" data-speed="1500">0</h3>
-                    <p class="stl-count-text ">Projects Completed</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="stl-counter">
-                    <i class="fas fa-heart"></i>
-                    <h3 class="stl-timer stl-count-title stl-count-number" data-to="30" data-speed="1500">0</h3>
-                    <p class="stl-count-text ">Programmes</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- End of Client Section -->	<!-- Reservation Section -->
-<section id="reservation" class="bg-white section-content">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
-                <div class="bg-white p-5 shadow">
-                    <div class="heading-section text-center">
-                        <h2 class="mb-4">
-                            Contact Us
-                        </h2>
-                    </div>
-                    <form method="post" name="contact-us" action="">
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1" data-aos="fade-left">
-                <h2 class="mb-4">
-                    STL: Empowering Entrepreneurs and Startups
-                </h2>
-                <p class="mb-4">STL is a vibrant community of entrepreneurs and innovators. We provide resources, support, and a collaborative environment to help startups thrive. From mentorship to networking events, STL is committed to fostering innovation and driving economic growth.</p>
-
-                <ul class="list-inline py-2">
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-rocket"></span>
-                        <p>Fast-Paced Environment</p>
-                    </li>
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-magic-wand"></span>
-                        <p>Innovative Solutions</p>
-                    </li>
-                    <li class="list-inline-item text-center">
-                        <span class="lnr fs-40 lnr-cog"></span>
-                        <p>Customizable Support</p>
-                    </li>
-                </ul>
-
-                <a href="#" class="btn btn-link p-0">
-                    <span>JOIN STL NOW</span>
-                    <span class="lnr lnr-arrow-right"></span>
+<body>
+    <!-- Header -->
+    <header id="bringer-header" class="is-frosted is-sticky" data-appear="fade-down" data-unload="fade-up">
+        <!-- Desktop Header -->
+        <div class="bringer-header-inner">
+            <!-- Header Logo -->
+            <div class="bringer-header-lp">
+                <a href="./" class="bringer-logo">
+                    <img src="img/STL logo 1 copy.png" alt="bringer." width="88" height="24">
                 </a>
             </div>
-    </div>
-</section>
-<!-- End of Reservation Section -->	<!-- Features Section-->
-<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
-    <div class="container">
-        <div class="section-content" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>Join our innovative and professional courses at STL today</p>
-                    <a class="btn btn-outline-primary btn-lg">Apply for Internship</a>
+            <!-- Main Menu -->
+            <div class="bringer-header-mp">
+                <nav class="bringer-nav">
+                    <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About</a>
+                        </li>
+                        <li>
+                            <a href="program.html">Programmes</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Header Button -->
+            <div class="bringer-header-rp">
+                <a href="contacts.html" class="bringer-button">Apply for Internship</a>
+            </div>
+        </div>
+        <!-- Mobile Header -->
+        <div class="bringer-mobile-header-inner">
+            <a href="./" class="bringer-logo">
+                <img src="img/STL logo 1.png" alt="Sunnah Tech Lab." width="88" height="24">
+            </a>
+            <a href="#" class="bringer-mobile-menu-toggler">
+                <i class="bringer-menu-toggler-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Main -->
+    <main id="bringer-main">
+        <div class="stg-container">
+            <!-- Hero Section -->
+            <section>
+                <div class="bringer-hero-block bringer-hero-type01">
+                    <!-- Main Line -->
+                    <div class="stg-row stg-bottom-gap-l stg-m-bottom-gap-l">
+                        <div class="stg-col-9 stg-tp-col-8 stg-m-col-12">
+                            <!-- Title -->
+                            <h1 class="bringer-page-title" data-split-appear="fade-up" data-split-unload="fade-up">Igniting Innovation in Northern Nigeria</h1>
+                        </div>
+                        <div class="stg-col-3 stg-tp-col-4 stg-m-col-12">
+                            <!-- Social Proof -->
+                            <div class="bringer-hero-social-proof">
+                                <div data-stagger-appear="fade-up" data-stagger-delay="100" data-stagger-unload="fade-up">
+                                    <img src="img/home/social-proof01.jpg" alt="Client 01">
+                                    <img src="img/home/social-proof02.jpg" alt="Client 02">
+                                    <img src="img/home/social-proof03.jpg" alt="Client 03">
+                                    <a href="testimonials.html">50+</a>
+                                </div>
+                                <p data-appear="fade-up" data-unload="fade-up" data-delay="200">Empowering 50+ startups</p>
+                            </div>
+                        </div>
+                    </div><!-- .stg-row -->
+
+                    <!-- Masked Media Container -->
+                    <div class="bringer-hero-media-wrap bringer-masked-bottom-right bringer-masked-block stg-bottom-gap-l" data-appear="zoom-out" data-unload="zoom-out">
+                        <!-- Masked Media -->
+                        <div class="bringer-masked-media bringer-masked-media bringer-parallax-media">
+                            <img src="img/about us banner.jpg" alt="Unleash Your Creativity">
+                        </div>
+                        <!-- Content -->
+                        <div class="bringer-masked-content at-bottom-right">
+                            <a href="#page01" class="bringer-square-button" data-appear="fade-left">
+                                <span class="bringer-icon bringer-icon-arrow-down"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information Line -->
+                    <div class="stg-row stg-valign-bottom">
+                        <div class="stg-col-3 stg-tp-col-3 stg-m-col-6" data-appear="fade-up" data-delay="200" data-unload="fade-up">
+                            <div class="bringer-counter bringer-small-counter" data-delay="3000">
+                                <div class="bringer-counter-number">100</div>
+                                <div class="bringer-counter-label">Innovators Supported</div>
+                            </div><!-- .bringer-counter -->
+                        </div>
+                        <div class="stg-col-3 stg-tp-col-3 stg-m-col-6" data-appear="fade-up" data-delay="300" data-unload="fade-up">
+                            <div class="bringer-counter bringer-small-counter" data-delay="3000">
+                                <div class="bringer-counter-number" data-suffix="+">2</div>
+                                <div class="bringer-counter-label">Years of Impact</div>
+                            </div><!-- .bringer-counter -->
+                        </div>
+                        <div class="stg-col-6 stg-tp-col-6 stg-m-col-12 stg-m-top-gap" data-appear="fade-up" data-delay="400" data-unload="fade-up">
+                            <p class="bringer-large-text">Sunnah Tech Lab is building a thriving technology ecosystem in northern Nigeria, empowering innovators to create scalable solutions and companies.</p>
+                        </div>
+                    </div><!-- .stg-row -->
+                </div><!-- .bringer-hero-block -->
+            </section>
+
+            <!-- Section: Steps -->
+            <section class="backlight-top" id="page01">
+                <div class="stg-bottom-gap-l">
+                    <h2 data-appear="fade-up" data-unload="fade-up">Nurturing Innovation in Jos North</h2>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Features Section--></div>
-<footer class="mastfoot my-3">
-    <div class="inner container">
-         <div class="row">
-         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		
-         	</div>
-         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		<p class="mx-auto text-center mb-0">&copy; 2024  <a href="https://sunnahtechlab.ng" target="_blank">STL</a>.</p>
-         	</div>
-           
-            <div class="col-lg-4 col-md-12">
-            	<nav class="nav nav-mastfoot justify-content-center">
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-facebook-f"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-X"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="fab fa-youtube"></i>
-	                </a>
-	            </nav>
-            </div>
+                <!-- Step 01 Row -->
+                <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
+                    <div class="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
+                        <div class="bringer-parallax-media">
+                            <img class="bringer-lazy" src="img/leadership.jpg" data-src="img/step1.jpg" alt="Step 01" width="960" height="960">
+                        </div>
+                    </div>
+                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right" data-delay="100">
+                        <span class="bringer-label">Our Mission</span>
+                        <h4>Empowering Northern Nigeria's Tech Ecosystem</h4>
+                        <p>Sunnah Tech Lab (STL) is more than just an innovation hub; we're a catalyst for change in northern Nigeria. Our mission is to cultivate a vibrant technology ecosystem, starting from Jos North and expanding across the region.</p>
+                        <p>Through community-centric innovation, peer-based learning, and hands-on experiences, we provide the foundation and resources needed to transform ideas into scalable products and companies.</p>
+                    </div>
+                </div>
+                <!-- Step 02 Row -->
+                <div class="stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l" data-unload="fade-right">
+                    <div class="stg-col-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-left">
+                        <div class="bringer-parallax-media">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/our vision.jpg" alt="Step 02" width="960" height="960">
+                        </div>
+                    </div>
+                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
+                        <span class="bringer-label">Our Approach</span>
+                        <h4>Collaborative Innovation</h4>
+                        <p>At STL, we believe in the power of collaboration. Our unique approach brings together startups, innovators, creatives, and entrepreneurs in a supportive environment that fosters growth and innovation.</p>
+                        <p>By providing access to cutting-edge resources, mentorship, and a network of like-minded individuals, we're creating a platform where ideas flourish and problems transform into solutions.</p>
+                    </div>
+                    <div class="stg-col-3"><!-- Empty Column --></div>
+                </div>
+                <!-- Step 03 Row -->
+                <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
+                    <div class="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
+                        <div class="bringer-parallax-media">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/step 3.jpg" alt="Step 03" width="960" height="960">
+                        </div>
+                    </div>
+                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right" data-delay="100">
+                        <span class="bringer-label">Step 03</span>
+                        <h4>Flawless Execution</h4>
+                        <p><span class="bringer-highlight">Expert Collaboration:</span> We'll work hand-in-hand with you, ensuring every detail aligns with your vision and exceeds expectations. This is where we bring together our diverse expertise to create something truly remarkable.</p>
+                        <p><span class="bringer-highlight">Meticulous Production:</span> We'll handle the technical aspects with precision, from seamless web development to high-quality graphic production. This is where we turn concepts into tangible realities, pixel-perfect and ready to shine.</p>
+                    </div>
+                </div>
+                <!-- Step 04 Row -->
+                <!-- <div class="stg-row stg-valign-middle stg-tp-row-reverse" data-unload="fade-right">
+                    <div class="stg-col-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-left">
+                        <div class="bringer-parallax-media">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/home/step04.jpg" alt="Step 04" width="960" height="960">
+                        </div>
+                    </div>
+                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
+                        <span class="bringer-label">Step 04</span>
+                        <h4>Launch &amp; Beyond</h4>
+                        <p><span class="bringer-highlight">Strategic Launch:</span> We'll unveil your brand to the world with a tailored launch strategy that generates excitement and drives engagement. This is where we create a buzz and make your presence known.</p>
+                        <p><span class="bringer-highlight">Ongoing Optimization:</span> We'll monitor your progress, analyze data, and make continuous adjustments to ensure your brand stays ahead of the curve. This is where we embrace growth and adaptation.</p>
+                    </div>
+                    <div class="stg-col-3"> </div>
+                </div> -->
+            </section>
+
+            <!-- Section: About Us -->
+            <section class="backlight-bottom divider-top">
+                <div class="stg-row stg-large-gap stg-valign-middle stg-tp-column-reverse">
+                       <div class="stg-col-6" data-appear="fade-right" data-unload="fade-left">
+                        <h3>Sunnah Tech Lab: Innovation Hub and Collaborative Community</h3>
+                        <p class="bringer-large-text">Sunnah Tech Lab is an innovation hub and a collaborative community for startups, innovators, creatives, and entrepreneurs.</p>
+                        <p>Our mission is to build a thriving technology ecosystem in and around northern Nigeria, starting from Jos North. We achieve this through community-centric innovation, peer-based hands-on learning, and providing a platform that offers the necessary foundation and resources to transform problems into solutions and ideas into scalable products and companies.</p>
+                        <div class="align-right">
+                            <a href="about-us.html" class="bringer-arrow-link">Learn More About Us</a>
+                        </div>
+                    </div>
+                    <div class="stg-col-6 stg-tp-bottom-gap-l stg-m-bottom-gap" data-unload="fade-right" data-appear="fade-left">
+                        <div class="bringer-parallax-media">
+                            <img class="bringer-lazy" src="img/null.png" data-src=" img/about us.jpg" alt="About Us" width="960" height="960">
+                        </div>
+                    </div>
+                </div><!-- .stg-row -->
+            </section>
+
             
+
+            <!-- Section: Our Services -->
+            <section class="backlight-bottom">
+                <!-- Section Title -->
+                <div class="stg-row bringer-section-title">
+                    <div class="stg-col-8 stg-offset-2">
+                        <div class="align-center">
+                            <h2 data-appear="fade-up" data-unload="fade-up">Our Programs</h2>
+                            <p class="bringer-large-text" data-appear="fade-up" data-unload="fade-up" data-delay="100">Sunnah Tech Lab offers a range of programs designed to nurture innovation and entrepreneurship:</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Programs List -->
+                <div class="bringer-detailed-list-wrap" data-appear="fade-up" data-unload="fade-up" data-delay="200">
+                    <ul class="bringer-detailed-list">
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>Startup Incubation<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>Our flagship program provides early-stage startups with the resources, mentorship, and support needed to transform innovative ideas into viable businesses. Through hands-on guidance and access to our network, we help entrepreneurs navigate the challenges of building a successful company.</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="startup-incubation.html"></a>
+                        </li>
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>Tech Skills Bootcamps<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>Intensive, hands-on training programs designed to equip participants with in-demand tech skills. From coding and web development to data science and AI, our bootcamps bridge the skills gap and prepare learners for the digital economy.</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="tech-bootcamps.html"></a>
+                        </li>
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>Innovation Challenges<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>Regular hackathons and innovation competitions that bring together diverse teams to solve real-world problems. These events foster creativity, collaboration, and rapid prototyping, often resulting in groundbreaking solutions to local and regional challenges.</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="innovation-challenges.html"></a>
+                        </li>
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>Mentorship Network<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>Connect with experienced industry professionals, successful entrepreneurs, and subject matter experts who provide guidance, share insights, and help navigate the complexities of building and scaling a tech business in northern Nigeria.</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="mentorship-network.html"></a>
+                        </li>
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>Community Events<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>Regular meetups, workshops, and networking events that bring together members of the tech ecosystem. These gatherings foster collaboration, knowledge sharing, and community building, creating a supportive environment for innovation to thrive.</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="community-events.html"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="align-center stg-top-gap" data-appear="fade-up" data-unload="zoom-out" data-delay="100">
+                    <a href="programs.html" class="bringer-button">Explore All Programs</a>
+                </div>
+            </section>
+
+            <!-- Section: Impact Stories -->
+            <section class="is-fullwidth is-stretched">
+                <!-- Section Title -->
+                <div class="stg-row bringer-section-title is-boxed">
+                    <div class="stg-col-8 stg-offset-2">
+                        <div class="align-center">
+                            <h2 data-appear="fade-up" data-unload="fade-up">Impact Stories</h2>
+                            <p class="bringer-large-text" data-appear="fade-up" data-unload="fade-up" data-delay="100">Discover how Sunnah Tech Lab is transforming ideas into successful ventures and empowering northern Nigeria's tech ecosystem:</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Impact Stories Carousel -->
+                <div class="swiper bringer-carousel stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up" data-delay="200" data-count="4" data-m-count="1.5">
+                    <div class="swiper-wrapper">
+                        <!-- Story Item 01 -->
+                        <div class="bringer-block bringer-portfolio-card swiper-slide">
+                            <div class="bringer-portfolio-card-image">
+                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/impact01.jpg" alt="" width="1200" height="1200">
+                            </div>
+                            <div class="bringer-portfolio-card-footer">
+                                <div class="bringer-portfolio-card-title">
+                                    <span class="bringer-meta">AgriTech</span>
+                                    <h6>FarmConnect</h6>
+                                </div>
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="impact-story-farmconnect.html"></a>
+                        </div><!-- .bringer-portfolio-card -->
+                        
+                        <!-- Story Item 02 -->
+                        <div class="bringer-block bringer-portfolio-card swiper-slide">
+                            <div class="bringer-portfolio-card-image">
+                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/impact02.jpg" alt="" width="1200" height="1200">
+                            </div>
+                            <div class="bringer-portfolio-card-footer">
+                                <div class="bringer-portfolio-card-title">
+                                    <span class="bringer-meta">EdTech</span>
+                                    <h6>LearnLocal</h6>
+                                </div>
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="impact-story-learnlocal.html"></a>
+                        </div><!-- .bringer-portfolio-card -->
+                        
+                        <!-- Story Item 03 -->
+                        <div class="bringer-block bringer-portfolio-card swiper-slide">
+                            <div class="bringer-portfolio-card-image">
+                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/impact03.jpg" alt="" width="1200" height="1200">
+                            </div>
+                            <div class="bringer-portfolio-card-footer">
+                                <div class="bringer-portfolio-card-title">
+                                    <span class="bringer-meta">HealthTech</span>
+                                    <h6>MediConnect</h6>
+                                </div>
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="impact-story-mediconnect.html"></a>
+                        </div><!-- .bringer-portfolio-card -->
+                        
+                        <!-- Story Item 04 -->
+                        <div class="bringer-block bringer-portfolio-card swiper-slide">
+                            <div class="bringer-portfolio-card-image">
+                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/impact04.jpg" alt="" width="1200" height="1200">
+                            </div>
+                            <div class="bringer-portfolio-card-footer">
+                                <div class="bringer-portfolio-card-title">
+                                    <span class="bringer-meta">FinTech</span>
+                                    <h6>PayEase</h6>
+                                </div>
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="impact-story-payease.html"></a>
+                        </div><!-- .bringer-portfolio-card -->
+                    </div>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination bringer-dots"></div>
+                </div><!-- .bringer-portfolio-carousel -->
+                <div class="align-center" data-appear="fade-up" data-unload="fade-up" data-delay="100">
+                    <a href="impact-stories.html" class="bringer-button">View All Impact Stories</a>
+                </div>
+            </section>
+           
+        </div><!-- .stg-container -->
+
+        <footer id="bringer-footer" data-appear="fade-up" data-unload="fade-down">
+            <!-- Footer Widgets Area -->
+            <div class="bringer-footer-widgets">
+                <div class="stg-container">
+                    <div class="stg-row" data-stagger-appear="fade-left" data-stagger-delay="100">
+                        <div class="stg-col-5 stg-tp-col-12 stg-tp-bottom-gap-l">
+                            <div class="bringer-info-widget">
+                                <a href="./" class="bringer-logo footer-logo">
+                                    <img src="img/STL logo 1 copy.png" alt="Sunnah Tech Lab" width="88" height="24">
+                                </a>
+                                <div class="bringer-info-description">Sunnah Tech Lab is an innovation hub dedicated to building a thriving technology ecosystem in northern Nigeria. We empower startups, innovators, and entrepreneurs to create scalable solutions and companies that drive positive change in our region.</div>
+                                <span class="bringer-label">Connect with us:</span>
+                                <ul class="bringer-socials-list" data-stagger-appear="fade-up" data-stagger-delay="75">
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-facebook">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-x">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-linkedin">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-instagram">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stg-col-2 stg-offset-1 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>Programs</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="startup-incubation.html">Startup Incubation</a></li>
+                                        <li><a href="tech-bootcamps.html">Tech Skills Bootcamps</a></li>
+                                        <li><a href="innovation-challenges.html">Innovation Challenges</a></li>
+                                        <li><a href="mentorship-network.html">Mentorship Network</a></li>
+                                        <li><a href="community-events.html">Community Events</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>About STL</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="about-us.html">Our Mission</a></li>
+                                        <li><a href="team.html">Our Team</a></li>
+                                        <li><a href="partners.html">Partners</a></li>
+                                        <li><a href="impact-stories.html">Impact Stories</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>Resources</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="events.html">Upcoming Events</a></li>
+                                        <li><a href="faq.html">FAQs</a></li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                    </div><!-- .stg-row -->
+                </div><!-- .stg-container -->
+            </div><!-- .bringer-footer-widgets -->
+
+            <!-- Footer Copyright Line -->
+            <div class="bringer-footer-line stg-container">
+                <div class="align-center">
+                    &copy; 2024 Sunnah Tech Lab. All Rights Reserved.
+                </div>
+            </div><!-- bringer-footer-line -->
+        </footer>
+    </main>
+
+    <!-- Right Click Protection Block -->
+    <div class="bringer-rcp-wrap">
+        <div class="bringer-rcp-overlay"></div>
+        <div class="bringer-rcp-container">
+            <h2>Right-click is disabled on this page.</h2>
         </div>
     </div>
-</footer>	<!-- External JS -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="vendor/bootstrap/popper.min.js"></script>
-	<script src="vendor/bootstrap/bootstrap.min.js"></script>
-	<script src="vendor/select2/select2.min.js "></script>
-	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
-	<script src="vendor/isotope/isotope.min.js"></script>
-	<script src="vendor/lightcase/lightcase.js"></script>
-	<script src="vendor/waypoints/waypoint.min.js"></script>
-	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	 
-	<!-- Main JS -->
-	<script src="js/app.min.js "></script>
-	<script src="//localhost:35729/livereload.js"></script>
+
+    <!-- Dynamic Backlight -->
+    <div class="bringer-backlight"></div>
+
+    <!-- JS Scripts -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/libs.js"></script>
+    <script src="js/contact_form.js"></script>
+    <script src="js/st-core.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
